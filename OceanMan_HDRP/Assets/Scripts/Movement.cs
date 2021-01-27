@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     Vector3 Dir;
     public Transform xAxis;
     public Transform yAxis;
+    public Transform zAxis;
 
     private void Start()
     {
@@ -26,6 +27,12 @@ public class Movement : MonoBehaviour
             Dir = MovePoint.position - transform.position;
             Character.AddForce(Dir.normalized * 20f * Time.deltaTime);
         }
+
+        if (Input.GetKey(KeyCode.Q))
+            zAxis.Rotate(Vector3.forward.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
+
+        if (Input.GetKey(KeyCode.E))
+            zAxis.Rotate(Vector3.back.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
 
         if (MouseX > 0)
             xAxis.Rotate(Vector3.up.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
