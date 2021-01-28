@@ -5,12 +5,18 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public Rigidbody Character;
+    public float Speed = 20f;
     public float MouseSensitivity = 30f;
     public Transform MovePoint;
-    Vector3 Dir;
+    public Transform MovePointLeft;
+    public Transform MovePointRight;
+
     public Transform xAxis;
     public Transform yAxis;
-    public Transform zAxis;
+
+    Vector3 FDir;
+    Vector3 LDir;
+    Vector3 RDir;
 
     private void Start()
     {
@@ -19,32 +25,28 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        float MouseX = Input.GetAxisRaw("Mouse X");
-        float MouseY = Input.GetAxisRaw("Mouse Y");
+        float MouseX = Input.GetAxis("Mouse X") * MouseSensitivity * Time.deltaTime;
+        float MouseY = Input.GetAxis("Mouse Y") * MouseSensitivity * Time.deltaTime;
 
         if (Input.GetKey(KeyCode.W))
         {
-            Dir = MovePoint.position - transform.position;
-            Character.AddForce(Dir.normalized * 20f * Time.deltaTime);
+            FDir = MovePoint.position - transform.position;
+            Character.AddForce(FDir.normalized * Speed * Time.deltaTime);
         }
 
-        if (Input.GetKey(KeyCode.Q))
-            zAxis.Rotate(Vector3.forward.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
+        if (Input.GetKey(KeyCode.A))
+        {
+            LDir = MovePointLeft.position - transform.position;
+            Character.AddForce(LDir.normalized * Speed * Time.deltaTime);
+        }
 
-        if (Input.GetKey(KeyCode.E))
-            zAxis.Rotate(Vector3.back.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
+        if (Input.GetKey(KeyCode.D))
+        {
+            RDir = MovePointRight.position - transform.position;
+            Character.AddForce(RDir.normalized * Speed * Time.deltaTime);
+        }
 
-        if (MouseX > 0)
-            xAxis.Rotate(Vector3.up.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
-
-        if (MouseX < 0)
-            xAxis.Rotate(Vector3.down.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
-
-        if (MouseY > 0)
-            yAxis.Rotate(Vector3.left.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
-
-        if (MouseY < 0)
-            yAxis.Rotate(Vector3.right.normalized * MouseSensitivity * Time.deltaTime, Space.Self);
-
+        xAxis.Rotate(Vector3.up * MouseX);
+        yAxis.Rotate(Vector3.left * MouseY);
     }
 }
