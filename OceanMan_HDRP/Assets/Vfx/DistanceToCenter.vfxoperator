@@ -100,10 +100,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 803
-    y: -302
-    width: 517
-    height: 163
+    x: 586
+    y: -368
+    width: 734
+    height: 164
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_ExposedName: Distance
   m_Exposed: 0
-  m_Order: 1
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
