@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{e29803c0-1e09-42e9-8d40-2b3207ddf43b}">
+		<property name="name">
+			<value>fade away</value>
+		</property>
+		<relationship name="folder">
+			<destination>{001a9a64-5664-412b-afe2-69b795a4f5d0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{825add9a-6c5f-4b8d-8e45-beeac5470c33}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{825add9a-6c5f-4b8d-8e45-beeac5470c33}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
