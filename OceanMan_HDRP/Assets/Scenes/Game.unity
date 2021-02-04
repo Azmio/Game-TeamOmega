@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.09855629, g: 0.07650184, b: 0.07721286, a: 1}
+  m_IndirectSpecularColor: {r: 0.09051863, g: 0.06562574, b: 0.054969292, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2605,7 +2605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/LOOP 2 created in FL
+  Event: event:/voicelines/vl2
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1

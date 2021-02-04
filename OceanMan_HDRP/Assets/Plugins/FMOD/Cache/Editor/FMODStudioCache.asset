@@ -1,5 +1,183 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9055469825631990406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637476257222891359
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1870
+  Exists: 1
+--- !u!114 &-8967478508159261744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/phase 3.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/phase 3.bank
+  Name: phase 3
+  StudioPath: bank:/phase 3
+  lastModified: 637476257288531158
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8934549801541816994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SWIM
+  m_EditorClassIdentifier: 
+  Path: event:/SWIM
+  guid: e63be1cdcbff2a45be780e7f47c79e2a
+  Banks:
+  - {fileID: 7228644904609095073}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4250
+--- !u!114 &-7719500223120460216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl7
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl7
+  guid: 55c481e944512d45a004bdeb78eb6afc
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10825
+--- !u!114 &-7635405114196789578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LOOP 1 created in FMOD
+  m_EditorClassIdentifier: 
+  Path: event:/LOOP 1 created in FMOD
+  guid: 9901bf8d53ce2640a2fa186d1f6f0aa6
+  Banks:
+  - {fileID: 7228644904609095073}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 26111
+--- !u!114 &-6195577347072837292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl4
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl4
+  guid: 229bf10d6e21f04697063ae08e69e6f2
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5332192762763492457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl5 hidden
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl5 hidden
+  guid: f743f720af33944ebff9d3df5e00d966
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5065071740526823855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl9
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl9
+  guid: 504f50559a8742448499222aa542bb27
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7268
 --- !u!114 &-4997914697887060254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23,6 +201,71 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 26111
+--- !u!114 &-3730552227824057789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/phase 4-5.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/phase 4-5.bank
+  Name: phase 4-5
+  StudioPath: bank:/phase 4-5
+  lastModified: 637476257328850284
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2302259193787199691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/phase 4-5 tracks/phase 4(-5) track
+  m_EditorClassIdentifier: 
+  Path: event:/phase 4-5 tracks/phase 4(-5) track
+  guid: 3e9981976cbe0241b7ba04b37adc4d6b
+  Banks:
+  - {fileID: -3730552227824057789}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 163645
+--- !u!114 &-2134016431938590744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl2
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl2
+  guid: 05ac296c37ee7a4fac3c4243fc6a0b58
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,18 +279,66 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 159457926142476576}
-  - {fileID: 9094801638485783447}
+  - {fileID: -9055469825631990406}
+  - {fileID: 7228644904609095073}
+  - {fileID: 2848007861411176809}
+  - {fileID: 7399276435807697322}
+  - {fileID: -8967478508159261744}
+  - {fileID: -3730552227824057789}
+  - {fileID: 8982475265887286902}
   EditorEvents:
-  - {fileID: 4404409488540667941}
-  - {fileID: -4997914697887060254}
+  - {fileID: 3048977540310034482}
+  - {fileID: 138238513895211299}
+  - {fileID: -7635405114196789578}
+  - {fileID: 4098940884830480220}
+  - {fileID: -8934549801541816994}
+  - {fileID: 7504922276380632387}
+  - {fileID: 505807498666937346}
+  - {fileID: 200618741670119291}
+  - {fileID: 3799191137352150247}
+  - {fileID: -2302259193787199691}
+  - {fileID: -2134016431938590744}
+  - {fileID: -6195577347072837292}
+  - {fileID: 788284020891200880}
+  - {fileID: -5065071740526823855}
+  - {fileID: -7719500223120460216}
+  - {fileID: 668513608567955267}
+  - {fileID: 610199875463232086}
+  - {fileID: 1323763707832608117}
+  - {fileID: 1326675627341198604}
+  - {fileID: 492498979976804604}
+  - {fileID: 6420614593399893761}
+  - {fileID: -5332192762763492457}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 9094801638485783447}
+  - {fileID: 7228644904609095073}
   StringsBanks:
-  - {fileID: 159457926142476576}
-  stringsBankWriteTime: 637475546689923824
+  - {fileID: -9055469825631990406}
+  stringsBankWriteTime: 637476257222891359
   cacheVersion: 6
+--- !u!114 &138238513895211299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/10-MINUTE AMBIENT TRACK
+  m_EditorClassIdentifier: 
+  Path: event:/10-MINUTE AMBIENT TRACK
+  guid: 19eed6d14f91f5488d5ff3e1e7511392
+  Banks:
+  - {fileID: 7228644904609095073}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 714501
 --- !u!114 &159457926142476576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,12 +354,284 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD/oceanman/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637475546689923824
+  lastModified: 637475619020109137
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 818
   Exists: 1
+--- !u!114 &200618741670119291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/phase 2 tracks/slightly stressed
+  m_EditorClassIdentifier: 
+  Path: event:/phase 2 tracks/slightly stressed
+  guid: df6af08aaedc2046baaf5b152b6e36c6
+  Banks:
+  - {fileID: 7399276435807697322}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 73489
+--- !u!114 &492498979976804604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl6
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl6
+  guid: e708ec6e539e4e41868e11b41b0b852e
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &505807498666937346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/phase 1 tracks/alien
+  m_EditorClassIdentifier: 
+  Path: event:/phase 1 tracks/alien
+  guid: 86439de8439d274f83e7281b5755168a
+  Banks:
+  - {fileID: 2848007861411176809}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 74183
+--- !u!114 &610199875463232086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl12 2
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl12 2
+  guid: 9508a64bbd57894c95646d78dde09659
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &668513608567955267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl1
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl1
+  guid: 60c86d58bf8dad4ba3696a33db881e78
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &788284020891200880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl10
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl10
+  guid: 292ca56c4a34224ca9f25867521721a0
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &1323763707832608117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl8 2
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl8 2
+  guid: 9765988600692f4294682ec8a9180de7
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &1326675627341198604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl11 4
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl11 4
+  guid: e514bf1ba3984a45b33b4c22e1135c26
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2848007861411176809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/phase 1.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/phase 1.bank
+  Name: phase 1
+  StudioPath: bank:/phase 1
+  lastModified: 637476257240204759
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3048977540310034482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LOOP 2 created in FL
+  m_EditorClassIdentifier: 
+  Path: event:/LOOP 2 created in FL
+  guid: 0cdab522dc5f464083147a99dfcbc52f
+  Banks:
+  - {fileID: 7228644904609095073}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3799191137352150247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/phase 3 tracks/foreshadowing
+  m_EditorClassIdentifier: 
+  Path: event:/phase 3 tracks/foreshadowing
+  guid: e45f5f8818f76841b83564d2c89dfc65
+  Banks:
+  - {fileID: -8967478508159261744}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 44427
+--- !u!114 &4098940884830480220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BRE
+  m_EditorClassIdentifier: 
+  Path: event:/BRE
+  guid: d1d79528f3b34c4ab151660250769305
+  Banks:
+  - {fileID: 7228644904609095073}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7446
 --- !u!114 &4404409488540667941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +655,109 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &6420614593399893761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/voicelines/vl3
+  m_EditorClassIdentifier: 
+  Path: event:/voicelines/vl3
+  guid: f71f8af50f304a4ba89d36b1e4fd5ed9
+  Banks:
+  - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &7228644904609095073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637476257222791331
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7399276435807697322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/phase 2.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/phase 2.bank
+  Name: phase 2
+  StudioPath: bank:/phase 2
+  lastModified: 637476257275302689
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7504922276380632387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/phase 1 tracks/musicbox
+  m_EditorClassIdentifier: 
+  Path: event:/phase 1 tracks/musicbox
+  guid: 5a82339c495e9c48ad4b62a6a68b7f24
+  Banks:
+  - {fileID: 2848007861411176809}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 39380
+--- !u!114 &8982475265887286902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/voicelines.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/voicelines.bank
+  Name: voicelines
+  StudioPath: bank:/voicelines
+  lastModified: 637476257337692274
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &9094801638485783447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +773,7 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD/oceanman/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637475546689893819
+  lastModified: 637475619020079127
   LoadResult: 0
   FileSizes: []
   Exists: 1

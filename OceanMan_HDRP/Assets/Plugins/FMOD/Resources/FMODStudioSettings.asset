@@ -393,8 +393,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/Audio/FMOD/oceanman/oceanman.fspro
-  sourceBankPath: Assets\Audio\FMOD\oceanman\Build
+  sourceProjectPath: Assets/Audio/FMOD FINAL/oceanman/oceanman.fspro
+  sourceBankPath: Assets\Audio\FMOD FINAL\oceanman\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -415,7 +415,12 @@ MonoBehaviour:
   Plugins: []
   MasterBanks:
   - Master
-  Banks: []
+  Banks:
+  - phase 1
+  - phase 2
+  - phase 3
+  - phase 4-5
+  - voicelines
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
