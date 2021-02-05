@@ -2897,7 +2897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/voicelines/vl8 2
+  Event: event:/phase 1 tracks/alien
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
@@ -6609,6 +6609,21 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4610286726937356088, guid: 7a2a82084f7b7874b94481f4d15c426a,
+        type: 3}
+      propertyPath: Event
+      value: event:/voicelines/vl2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610286726937356088, guid: 7a2a82084f7b7874b94481f4d15c426a,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610286726937356088, guid: 7a2a82084f7b7874b94481f4d15c426a,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5005366906799151277, guid: 7a2a82084f7b7874b94481f4d15c426a,
         type: 3}
       propertyPath: m_RootOrder
@@ -6787,6 +6802,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610286726937356088, guid: 7a2a82084f7b7874b94481f4d15c426a,
+        type: 3}
+      propertyPath: Event
+      value: event:/voicelines/vl1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610286726937356088, guid: 7a2a82084f7b7874b94481f4d15c426a,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610286726937356088, guid: 7a2a82084f7b7874b94481f4d15c426a,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005366906799151277, guid: 7a2a82084f7b7874b94481f4d15c426a,
         type: 3}
