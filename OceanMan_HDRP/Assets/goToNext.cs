@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class goToNext : MonoBehaviour
 {
@@ -52,8 +53,10 @@ public class goToNext : MonoBehaviour
             nextTextObject.SetActive(true);
         }
             
-        else
-            Debug.Log("Change Scene");
+        else{
+            SceneManager.LoadScene(1);
+        }
+            
     }
 
     private bool HasParent(){
