@@ -13,10 +13,14 @@ public class goToNext : MonoBehaviour
     private Transform parentTransform;
     private Text parentText;
 
+    public bool isFirst=false;
     public bool isLast=false;
     public float fadeOutTime=0.4f;
 
+    public float fadeInTime=1f;
     public CanvasGroup canvasGroup=null;
+
+    
     
     // Start is called before the first frame update
     void Start()
@@ -28,6 +32,7 @@ public class goToNext : MonoBehaviour
         parentTransform=transform.parent;
         parentText=parentTransform.GetComponent<Text>();
         canvasGroup= gameObject.GetComponent<CanvasGroup>();
+        FadeIn(isFirst);
     }
 
     private void OnClick()
@@ -43,8 +48,10 @@ public class goToNext : MonoBehaviour
         else{
             this.gameObject.SetActive(false);
         }
-        if(!last)
+        if(!last){
             nextTextObject.SetActive(true);
+        }
+            
         else
             Debug.Log("Change Scene");
     }
@@ -74,5 +81,29 @@ public class goToNext : MonoBehaviour
              }
 
              ChangeTextObject(isLast);    
+         }
+         
+         public void FadeIn(bool isFirst)
+         {
+            StartCoroutine(FadeInRoutine(isFirst));
+
+         }
+         private IEnumerator FadeInRoutine(bool isFirst)
+         {
+            canvasGroup=gameObject.GetComponent<CanvasGroup>();
+            if(HasParent()){
+
+                canvasGroup=parentTransform.GetComponent<CanvasGroup>();
+            }
+            if(!isFirst)
+            for (float t = 0.01f; t < fadeInTime; t += Time.deltaTime)
+             {
+                    //text.color = Color.Lerp(originalButtonColor, Color.clear, Mathf.Min(1, t/fadeOutTime));    
+                    canvasGroup.alpha=Mathf.Lerp(0, 1, Mathf.Min(1, t/fadeInTime));
+                    yield return null;
+             }
+             else
+             yield break;
+   
          }
 }

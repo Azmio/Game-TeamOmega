@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2035111234}
-  m_IndirectSpecularColor: {r: 131.13168, g: 162.57239, b: 215.29922, a: 1}
+  m_IndirectSpecularColor: {r: 131.16867, g: 162.54297, b: 215.1647, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -260,8 +260,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1395533432}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &2310826
 CanvasGroup:
@@ -413,8 +415,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 0}
+  isFirst: 0
   isLast: 1
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &31153259
 CanvasGroup:
@@ -566,8 +570,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 31153253}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &94806709
 CanvasGroup:
@@ -1021,8 +1027,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 633151546}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &227793956
 CanvasGroup:
@@ -1172,8 +1180,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1338342466}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!1 &298999819
 GameObject:
@@ -1313,8 +1323,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 911109264}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!1 &313761473
 GameObject:
@@ -1580,8 +1592,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1120375714}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &374012336
 CanvasGroup:
@@ -1935,8 +1949,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 94806703}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &633151552
 CanvasGroup:
@@ -2340,8 +2356,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 227793950}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &731687481
 CanvasGroup:
@@ -2575,8 +2593,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1553344937}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &911109270
 CanvasGroup:
@@ -2809,8 +2829,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 130106597}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1120375720
 CanvasGroup:
@@ -3046,8 +3068,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1950330030}
+  isFirst: 1
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1257223469
 CanvasGroup:
@@ -3199,8 +3223,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1516038133}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!1 &1297650280
 GameObject:
@@ -3569,8 +3595,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 2310820}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1338342472
 CanvasGroup:
@@ -3720,8 +3748,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 2107874921}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!1 &1382492414
 GameObject:
@@ -3942,8 +3972,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 374012330}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1395533438
 CanvasGroup:
@@ -4216,8 +4248,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1948140844}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1477257479
 CanvasGroup:
@@ -4369,8 +4403,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1477257473}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1516038139
 CanvasGroup:
@@ -4522,8 +4558,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 680954940}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1522754104
 CanvasGroup:
@@ -4829,8 +4867,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1395533432}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1549132604
 CanvasGroup:
@@ -4982,8 +5022,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1948140844}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1553344943
 CanvasGroup:
@@ -5605,8 +5647,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 731687475}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1948140850
 CanvasGroup:
@@ -5757,8 +5801,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1522754098}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &1950330036
 CanvasGroup:
@@ -6277,8 +6323,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1549132598}
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
+  fadeInTime: 1
   canvasGroup: {fileID: 0}
 --- !u!225 &2107874927
 CanvasGroup:
