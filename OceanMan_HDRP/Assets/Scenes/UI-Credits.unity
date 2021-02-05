@@ -470,8 +470,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 235.7}
+  m_SizeDelta: {x: 608.3932, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &77065278
 CanvasGroup:
@@ -578,7 +578,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: Eva might never come back to the surface.
 --- !u!222 &77065282
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -703,7 +703,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You know the descent is the easy part, what you really fear is the ascent.
+  m_Text: You know the descent is the easy part, what you really fear is coming back
+    up.
 --- !u!222 &94806707
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -776,7 +777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
+  m_AnchoredPosition: {x: 0, y: 267.3}
   m_SizeDelta: {x: 1241.1694, y: 484.3407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &97482223
@@ -811,11 +812,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "You start your journey back up. You feel absolutely horrified by the fact
+    you are already late and even worse. She is nowhere to be seen. \r\n\r\n \r\n\r\nFor
+    two entire hours you suffer from the terror of not knowing. Turning potential
+    outcomes over and over in your head. \r\n\r\nEva will you make it on time? Should
+    I go back down? Why did you not follow me? It comes to the point where you are
+    seriously considering the fact:"
 --- !u!222 &97482224
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -862,7 +864,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
+  m_AnchoredPosition: {x: 0, y: 160.6}
   m_SizeDelta: {x: 372.1709, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &108736036
@@ -970,7 +972,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'A cold wave of terror creeps up your bones. '
 --- !u!222 &108736040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1242,8 +1244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 201.2}
+  m_SizeDelta: {x: 412.14844, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &183498849
 CanvasGroup:
@@ -1350,7 +1352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: You feel right at home.
 --- !u!222 &183498853
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1476,7 +1478,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_SizeDelta: {x: 638.6863, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &205600437
 CanvasGroup:
@@ -1583,7 +1585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: As if nothing happened, she waves at you.
 --- !u!222 &205600441
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1630,7 +1632,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 833.3817, y: 49.5}
+  m_SizeDelta: {x: 910.9562, y: 49.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &227793952
 MonoBehaviour:
@@ -1785,7 +1787,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_SizeDelta: {x: 552.65845, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &234644254
 CanvasGroup:
@@ -1892,7 +1894,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'Despair does not pair well with Hope. '
 --- !u!222 &234644258
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2219,8 +2221,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
-  m_SizeDelta: {x: 1241.1694, y: 484.3407}
+  m_AnchoredPosition: {x: 0, y: 238}
+  m_SizeDelta: {x: 1241.1694, y: 545.6649}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &300725960
 MonoBehaviour:
@@ -2254,11 +2256,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "After that day, Eva is declared missing. \r\n\r\nYou didn\u2019t want
+    to be contacted by anyone for more than a week. \r\n\r\n \r\n\rOne day you answer
+    the phone. \r\n\r\n\u201CHello\u201D \r\n\r\n\u201CThis is Julie.\u201D \r\n\u201CYes.
+    Julie can we not talk about Eva. Your daughter has left me scared.\u201D \r\n\r\n
+    \r\n\r\u201CHow can you say that. She might still be aliv\u2014\u201D \r\n\r\nYou
+    smash the phone down on the table. "
 --- !u!222 &300725961
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2744,7 +2747,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_SizeDelta: {x: 523.9824, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &383668820
 CanvasGroup:
@@ -2851,7 +2854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'You have a feeling you overreacted. '
 --- !u!222 &383668824
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2894,7 +2897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
+  m_AnchoredPosition: {x: 0, y: 232.1}
   m_SizeDelta: {x: 1241.1694, y: 484.3407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394144795
@@ -2929,11 +2932,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "You can\u2019t live the rest of your life with this answer. \r\n\r\nThe
+    absence of her body is the only proof you need. You know something is wrong.
+    \r\n\r\n \r\n\r\nYou prepare yourself mentally and physically to go back into
+    the depth. \r\n\r\nGoing back to where you lost her. \r\n\r\n \r\n\rTwo emotions
+    fight for your attention. \r\n\r\nFear and Heartbreak. "
 --- !u!222 &394144796
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2976,7 +2979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
+  m_AnchoredPosition: {x: 0, y: 172}
   m_SizeDelta: {x: 1241.1694, y: 484.3407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &400939571
@@ -3011,11 +3014,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "On the next morning.  \r\n\r\nYou decide you don\u2019t ever want to feel
+    the fear of losing her again. "
 --- !u!222 &400939572
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3058,8 +3058,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
-  m_SizeDelta: {x: 1241.1694, y: 484.3407}
+  m_AnchoredPosition: {x: 0, y: 293}
+  m_SizeDelta: {x: 1241.1694, y: 564.7566}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407702767
 MonoBehaviour:
@@ -3093,11 +3093,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "This can\u2019t be happening, you think. It\u2019s like that one time.
+    \r\n\r\nYou yell on James. Question him about every little detail. \r\n\r\n \r\n\r\nJames
+    has no answers. \r\n\r\n \r\n\rAnger turns into despair and, in that moment,
+    not even the ocean that just engulfed your Eva, is deeper than your despair. "
 --- !u!222 &407702768
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3302,8 +3301,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 111.3}
+  m_SizeDelta: {x: 412.14844, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &527052730
 CanvasGroup:
@@ -3410,7 +3409,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: "She doesn\u2019t take it well\u2026 "
 --- !u!222 &527052734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3488,11 +3487,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "Both of you don\u2019t talk to each other for a long time and get to bed.
+    \r\n\r\nTotal silence. \r\n\r\n \r\n\r\nYou can\u2019t bring yourself to say
+    anything, so you decide to let it be."
 --- !u!222 &571376265
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3539,8 +3536,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 222.96}
+  m_SizeDelta: {x: 942.35376, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &575726962
 CanvasGroup:
@@ -3647,7 +3644,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'You feel tense once more. Your medicine just ran away. '
 --- !u!222 &575726966
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3820,8 +3817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 340}
+  m_SizeDelta: {x: 581.33435, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &589371552
 CanvasGroup:
@@ -3928,7 +3925,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: '2 months later. You propose to her. '
 --- !u!222 &589371556
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4080,11 +4077,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "You go test out the new Hawaiian waters. \r\n \r\nYou don\u2019t join
+    Eva on the very first dive. Unfortunately, you need to  \r\n\r\nstudy the maps
+    to find the next location.   \r\n\r\n \r\n\rEva catches your attention before
+    you leave. \r\n\r\n\u201CAh, I wish we were going in together. James is nice
+    but he can be a bit... clingy. Anywhatsoever, remember, I love you! See you in
+    an hour!\u201D \r\n\r\nAnd down to the depths she went."
 --- !u!222 &607955147
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4455,7 +4453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
+  m_AnchoredPosition: {x: 0, y: 227.9}
   m_SizeDelta: {x: 1241.1694, y: 484.3407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742809027
@@ -4490,11 +4488,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "You finally arrive to the surface after what can only be described as
+    hell under water. \r\n\r\nEveryone had already arrived at the surface and you
+    couldn\u2019t believe your eyes. There she was standing with a glass in hand
+    laughing with other divers. "
 --- !u!222 &742809028
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4619,7 +4616,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
+  m_AnchoredPosition: {x: 0, y: 334}
   m_SizeDelta: {x: 1241.1694, y: 484.3407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &771690769
@@ -4654,11 +4651,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "You make a sign to Eva signaling that it\u2019s time to resurface.  \r\n\r\nShe
+    looks at you confused. \r\n\r\nShe knows what your sign means. She simply chooses
+    to ignore it. \r\n\r\nYou swim near her. Try to gently force her hand. \r\n\r\nShe
+    swiftly frees her hand and instantly swims away. Clearly signaling to you. She
+    does not want to be followed.  \r\n\r\n\nThe deep blue sea seems to shift. It
+    now more closely resembles a monster.  \r\n\r\nIt\u2019s Mouth wide. Welcoming
+    a brand-new snack. "
 --- !u!222 &771690770
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4706,7 +4705,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_SizeDelta: {x: 758.6019, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &789733872
 CanvasGroup:
@@ -4813,7 +4812,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'You sigh and start directing yourself towards the map. '
 --- !u!222 &789733876
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4891,11 +4890,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "You have a good time exploring the vast new landscapes.  \r\n\r\nEva guides
+    you through interesting dunes filed with many species that  \r\n\r\n99.9% of
+    people have never seen and will never see. \r\n\r\n \r\n\rYou feel blessed to
+    have had the opportunity and courage to dive this deep into the beautiful blue
+    ocean.\n"
 --- !u!222 &796875645
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4942,8 +4941,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 213.5}
+  m_SizeDelta: {x: 412.14844, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &810484046
 CanvasGroup:
@@ -5050,7 +5049,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'You tell him to leave. '
 --- !u!222 &810484050
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5333,8 +5332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 223}
+  m_SizeDelta: {x: 552.65845, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &956680228
 CanvasGroup:
@@ -5441,7 +5440,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'You fall to the depth of despair. '
 --- !u!222 &956680232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5484,8 +5483,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
-  m_SizeDelta: {x: 1241.1694, y: 484.3407}
+  m_AnchoredPosition: {x: 0, y: 354.6}
+  m_SizeDelta: {x: 1241.1694, y: 658.2494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &992434066
 MonoBehaviour:
@@ -5519,11 +5518,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "A long hour passes by. James comes back. Alone. \r\n\r\n\u201CHey James,
+    any cool findings?\u201D \r\n\r\nHe doesn\u2019t answer. \r\n\r\n\u201CAre you
+    alright?\u201D \r\n\r\n\u201CEva\u2026\u201D \r\n\r\n \r\n\r\u201CEva?... What
+    Eva?\u201D \r\n\r\n\u201CI looked behind me and\u2026\u201D \r\n\r\nTell me:
+    \u201CWhere. Is. Eva?\u201D \r\n\r\n\u201CI don\u2019t know I lost her.\u201D "
 --- !u!222 &992434067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5799,8 +5798,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
-  m_SizeDelta: {x: 1241.1694, y: 484.3407}
+  m_AnchoredPosition: {x: 0, y: 391.7}
+  m_SizeDelta: {x: 1241.1694, y: 756.0958}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143573053
 MonoBehaviour:
@@ -5834,11 +5833,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "You stand still on the boat during the way back, trying to collect your
+    emotions. \r\n\r\nYou are happy to see her but she acts like nothing happened.
+    She seems oblivious to the fact you spent the last 2 hours debating on the odds
+    of her being alive.  \r\n\r\nYou get back home and immediately get into an argument.
+    \r\n\r\n \r\n\rEva doesn\u2019t understand what\u2019s the big deal, she just
+    wanted to explore a bit more. \r\n\r\nYou try to explain how worried you were.
+    \r\n\r\nShe undermines your worries and compares you to a scared little boy.
+    \r\n\r\n \r\n\rYou tell her how much of a greedy and unreasonable person she
+    is. "
 --- !u!222 &1143573054
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6069,7 +6072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextTextObject: {fileID: 1950330030}
-  isFirst: 1
+  isFirst: 0
   isLast: 0
   fadeOutTime: 1
   fadeInTime: 1
@@ -6263,8 +6266,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
-  m_SizeDelta: {x: 1241.1694, y: 484.3407}
+  m_AnchoredPosition: {x: 0, y: 303.6}
+  m_SizeDelta: {x: 1241.1694, y: 543.344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1271344432
 MonoBehaviour:
@@ -6298,11 +6301,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "1 month later. \r\n\r\nYou accept to talk with the detective assigned
+    to the case. \r\n\r\nHe explains they have made thorough searches of the diving
+    site but haven\u2019t found a body. \r\n\r\n \r\n\r\nHe suggests closing the
+    case for good. \r\n\r\nYou can\u2019t believe it. You tell him they must have
+    missed something. They must find Eva. \r\n\r\nHe gives his theory on her death
+    based on the only object they found from Eva on the site. \r\n\r\nWhat he describes
+    is a rookie mistake that would have led to her supposed death."
 --- !u!222 &1271344433
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8365,10 +8370,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1995\r\n\nYou prepare for your truly first, deep water experience. It\u2019s
-    summer. 11:30am the sun is high, you are on a speeding boat. The warm breeze
-    feels like heaven on your skin.\r\n\n\nYou and Eva have done 40 meter dives before
-    but 60 meters \r\nis still absolutely unknown to you.\r\n"
+  m_Text: "2002\n\nYou prepare for your first, deep water experience. It\u2019s summer.
+    11:30am, the sun is high, you are on a speeding boat. The warm breeze feels like
+    heaven on your skin.\r\n\n\nYou and Eva have done 40-meter dives before but 60-meters
+    \r\nis still absolutely unknown to both of you.\r\n"
 --- !u!222 &1688304722
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8833,8 +8838,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Eva on the other hand seems to be having a blast learning all about the
-    types of wild life she will find in the 60 meter range. \r\n\n\nOnce you get
-    to the drop zone, you and Eva start your descent.\r\n\n"
+    types of wildlife she will encounter in the new depths. \r\n\n\nOnce you get
+    to the diving point, you and Eva start your descent.\r\n\n"
 --- !u!222 &1913393468
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8980,7 +8985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 900327b33c5731d4591796b83658596b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextTextObject: {fileID: 0}
+  nextTextObject: {fileID: 227793950}
   isFirst: 0
   isLast: 0
   fadeOutTime: 1
@@ -9221,11 +9226,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "With the addition of decompression stops, the ascent can easily last two
+    hours. That\u2019s two hours of pure dread hoping you calculated your amount
+    of oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room
+    for error. Barely any light, a horrible feeling of stillness and the pressure
+    of knowing that your closest exit is two hours away.\r\n\n"
 --- !u!222 &1977686521
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9272,8 +9277,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 252.2}
+  m_SizeDelta: {x: 659.5359, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1981400753
 CanvasGroup:
@@ -9380,7 +9385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: "It doesn't matter. This isn\u2019t about you. It\u2019s about Eva."
 --- !u!222 &1981400757
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9708,7 +9713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
+  m_AnchoredPosition: {x: 0, y: 263.7}
   m_SizeDelta: {x: 1241.1694, y: 484.3407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052349450
@@ -9743,11 +9748,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "As you get in the water you can feel it\u2019s cold, intense pressure.
+    Going deeper and deeper, you feel that stillness and tension you can never quite
+    get rid of. \r\n\r\nToday. It\u2019s raging across your body and consuming your
+    thoughts. \r\n\r\n \r\n\r\nDetermined you follow a fish to a nearby cave. \r\n\r\nYou
+    enter. \r\n\r\n \r\n\rThe Cave entrance crumbles behind you. \r\n\r\nYou just
+    don\u2019t care anymore. "
 --- !u!222 &2052349451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9902,7 +9908,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'Time is up. '
 --- !u!222 &2075009343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9949,8 +9955,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 282.1}
-  m_SizeDelta: {x: 372.1709, y: 49.499992}
+  m_AnchoredPosition: {x: 0, y: 243.5}
+  m_SizeDelta: {x: 515.8534, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &2078929552
 CanvasGroup:
@@ -10057,7 +10063,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Still. You follow Eva.
+  m_Text: 'You only have one objective. '
 --- !u!222 &2078929556
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10100,8 +10106,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207.3}
-  m_SizeDelta: {x: 1241.1694, y: 484.3407}
+  m_AnchoredPosition: {x: 0, y: 334.5}
+  m_SizeDelta: {x: 1241.1694, y: 557.52527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082237981
 MonoBehaviour:
@@ -10135,11 +10141,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "With the addition of decompression stops, the ascent can easily last 2
-    hours. That\u2019s 2 hours of pure dread hoping you calculated your amount of
-    oxygen left correctly.\r\n\n\nAt 60 meters deep, you know there is no room for
-    error. Barely any light, a horrible feeling of stillness and the pressure of
-    knowing that your closest exit is 2 hours away.\r\n\n"
+  m_Text: "2006 \r\n\r\n \r\n\rYou both move to Hawaii to be closer to an established
+    diver\u2019s community. \r\n\r\nDiving is your life and moving to Hawaii feels
+    like what you should have done from the start. \r\n\r\nRight around that time
+    Eva\u2019s music career starts to flourish. Hawaii fuels her inspiration, and
+    she can\u2019t stop talking about how much she loves it here. \r\n\r\n \r\n\r\nEverything
+    she has ever wanted, and consequently, what you have ever wanted. \r\n\r\nIs
+    becoming more and more a reality."
 --- !u!222 &2082237982
 CanvasRenderer:
   m_ObjectHideFlags: 0
