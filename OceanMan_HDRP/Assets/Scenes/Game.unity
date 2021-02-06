@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.098594405, g: 0.07657837, b: 0.07737904, a: 1}
+  m_IndirectSpecularColor: {r: 0.09049059, g: 0.06559028, b: 0.054867964, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -199,6 +199,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6887005450823191774, guid: 2828b6c3d38d0e647b6c07a3e4ea1171,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2828b6c3d38d0e647b6c07a3e4ea1171,
         type: 3}
       propertyPath: m_Name
@@ -206,26 +211,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2828b6c3d38d0e647b6c07a3e4ea1171, type: 3}
---- !u!1 &5394970 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2828b6c3d38d0e647b6c07a3e4ea1171,
-    type: 3}
-  m_PrefabInstance: {fileID: 5394969}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &5394971
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5394970}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6739990923146178784, guid: 2828b6c3d38d0e647b6c07a3e4ea1171, type: 3}
 --- !u!1001 &47896441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2425,13 +2410,13 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 600.27
+  m_Intensity: 8.74
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
-  m_InnerSpotPercent: 0
+  m_InnerSpotPercent: 2.2
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_LightUnit: 0
+  m_LightUnit: 4
   m_FadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -2439,7 +2424,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 1
-  m_ShapeRadius: 0.025
+  m_ShapeRadius: 0.08
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -2528,9 +2513,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.7830189, g: 0.5135341, b: 0.22530258, a: 1}
-  m_Intensity: 47.767967
-  m_Range: 10
-  m_SpotAngle: 62.5
+  m_Intensity: 53.445618
+  m_Range: 91.19
+  m_SpotAngle: 72.3
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -2575,7 +2560,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 0.08
   m_ShadowAngle: 0
 --- !u!1 &696048438 stripped
 GameObject:
@@ -6748,6 +6733,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1751443892}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1827984652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1829580394641760849, guid: 2828b6c3d38d0e647b6c07a3e4ea1171,
+    type: 3}
+  m_PrefabInstance: {fileID: 5394969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1827984656
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827984652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6739990923146178784, guid: 2828b6c3d38d0e647b6c07a3e4ea1171, type: 3}
 --- !u!1 &1834340605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5958973119933674945, guid: f804bcdb9e945354e84ec201d59e253d,
