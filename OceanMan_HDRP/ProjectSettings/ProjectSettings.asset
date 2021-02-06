@@ -595,7 +595,8 @@ PlayerSettings:
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   allowUnsafeCode: 0
-  additionalIl2CppArgs: 
+  additionalIl2CppArgs: --additional-cpp="C:/Users/Florian/Documents/Unity/Game-TeamOmega/OceanMan_HDRP/Assets/../Temp/fmod_register_static_plugins.cpp"
+    --additional-cpp="C:/Users/Florian/Documents/Unity/Game-TeamOmega/OceanMan_HDRP/Assets/Plugins/FMOD/src/Runtime/fmod_static_plugin_support.h"
   scriptingRuntimeVersion: 1
   gcIncremental: 0
   assemblyVersionValidation: 1
