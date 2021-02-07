@@ -20,6 +20,9 @@ public class goToNext : MonoBehaviour
 
     public float fadeInTime=1f;
     public CanvasGroup canvasGroup=null;
+    public GameObject theme1;
+    public GameObject theme2;
+    public GameObject theme3;
 
     
     
@@ -51,6 +54,19 @@ public class goToNext : MonoBehaviour
         }
         if(!last){
             nextTextObject.SetActive(true);
+            if (nextTextObject.name == "20")
+            {
+                theme1.SetActive(false);
+                theme2.SetActive(true);
+            } else if (nextTextObject.name == "25")
+            {
+                theme2.SetActive(false);
+                theme1.SetActive(true);
+            } else if (nextTextObject.name == "28")
+            {
+                theme1.SetActive(false);
+                theme3.SetActive(true);
+            }
         }
             
         else{

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7984904936136854173
+--- !u!114 &-7222591091647492419
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -413,8 +413,16 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - bank
+  - firewatch
+  - phase 1
+  - phase 2
+  - phase 3
+  - phase 4-5
+  - voicelines
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

@@ -15,11 +15,11 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476257222891359
+  lastModified: 637482104032106183
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1870
+    Value: 2390
   Exists: 1
 --- !u!114 &-8967478508159261744
 MonoBehaviour:
@@ -36,7 +36,7 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/phase 3.bank
   Name: phase 3
   StudioPath: bank:/phase 3
-  lastModified: 637476257288531158
+  lastModified: 637482104033816571
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -62,7 +62,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 4250
+  Length: 3625
 --- !u!114 &-7719500223120460216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,6 +109,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 26111
+--- !u!114 &-7100681959279503883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/firewatch theme 3
+  m_EditorClassIdentifier: 
+  Path: event:/firewatch theme 3
+  guid: 6f1fcc353aaf094980228b6815e10983
+  Banks:
+  - {fileID: 3308630849609983958}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 65084
+--- !u!114 &-6836358744882228058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen30
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen30
+  guid: 3433b071e68109468ad33bf0664875d7
+  Banks:
+  - {fileID: 6537447538541652039}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6195577347072837292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +194,52 @@ MonoBehaviour:
   guid: f743f720af33944ebff9d3df5e00d966
   Banks:
   - {fileID: 8982475265887286902}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5250540991072360136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen40
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen40
+  guid: 7a27472aee7494468e565e284ee3dfd3
+  Banks:
+  - {fileID: 6537447538541652039}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5110083739270632222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen50
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen50
+  guid: c2c4202018080946a91fe5ef4ece27d9
+  Banks:
+  - {fileID: 6537447538541652039}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -201,6 +293,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 26111
+--- !u!114 &-4112200532237654454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen80
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen80
+  guid: 8cdee2cb8a9a9d4bb1eb485e39cc4b97
+  Banks:
+  - {fileID: 6537447538541652039}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-3730552227824057789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,10 +331,33 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/phase 4-5.bank
   Name: phase 4-5
   StudioPath: bank:/phase 4-5
-  lastModified: 637476257328850284
+  lastModified: 637482104034666763
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-3065103878611556288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen60
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen60
+  guid: a8efbd7774cf2e4ea5cfd6ae27e6130a
+  Banks:
+  - {fileID: 6537447538541652039}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-2302259193787199691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,6 +404,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-85707324377469416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/firewatch theme 2
+  m_EditorClassIdentifier: 
+  Path: event:/firewatch theme 2
+  guid: ca103b423e7761438b70892e6c17e984
+  Banks:
+  - {fileID: 3308630849609983958}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 65584
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +447,8 @@ MonoBehaviour:
   - {fileID: -8967478508159261744}
   - {fileID: -3730552227824057789}
   - {fileID: 8982475265887286902}
+  - {fileID: 6537447538541652039}
+  - {fileID: 3308630849609983958}
   EditorEvents:
   - {fileID: 3048977540310034482}
   - {fileID: 138238513895211299}
@@ -309,12 +472,24 @@ MonoBehaviour:
   - {fileID: 492498979976804604}
   - {fileID: 6420614593399893761}
   - {fileID: -5332192762763492457}
+  - {fileID: 6705767136875716488}
+  - {fileID: -6836358744882228058}
+  - {fileID: 8405456864282825379}
+  - {fileID: -5250540991072360136}
+  - {fileID: -4112200532237654454}
+  - {fileID: -3065103878611556288}
+  - {fileID: -5110083739270632222}
+  - {fileID: 3432439731258800489}
+  - {fileID: 2933383273424061023}
+  - {fileID: -7100681959279503883}
+  - {fileID: 6661856435207074474}
+  - {fileID: -85707324377469416}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7228644904609095073}
   StringsBanks:
   - {fileID: -9055469825631990406}
-  stringsBankWriteTime: 637476257222891359
+  stringsBankWriteTime: 637482104032106183
   cacheVersion: 6
 --- !u!114 &138238513895211299
 MonoBehaviour:
@@ -559,10 +734,33 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/phase 1.bank
   Name: phase 1
   StudioPath: bank:/phase 1
-  lastModified: 637476257240204759
+  lastModified: 637482104032696318
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &2933383273424061023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen70
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen70
+  guid: f96924280833844d8a997cc283a47813
+  Banks:
+  - {fileID: 6537447538541652039}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &3048977540310034482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,6 +777,48 @@ MonoBehaviour:
   guid: 0cdab522dc5f464083147a99dfcbc52f
   Banks:
   - {fileID: 7228644904609095073}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3308630849609983958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/firewatch.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/firewatch.bank
+  Name: firewatch
+  StudioPath: bank:/firewatch
+  lastModified: 637482104030565840
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3432439731258800489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen90
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen90
+  guid: ee8c15524eab144381d86fa37ac7110f
+  Banks:
+  - {fileID: 6537447538541652039}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -631,7 +871,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 7446
+  Length: 7071
 --- !u!114 &4404409488540667941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,6 +918,71 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &6537447538541652039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/bank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/bank.bank
+  Name: bank
+  StudioPath: bank:/bank
+  lastModified: 637482104039797919
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6661856435207074474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/firewatch theme 1
+  m_EditorClassIdentifier: 
+  Path: event:/firewatch theme 1
+  guid: c660db798aae2348862fa3d99bc3119f
+  Banks:
+  - {fileID: 3308630849609983958}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 65084
+--- !u!114 &6705767136875716488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen10
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen10
+  guid: 2d9869487057324687a442f7e386fc02
+  Banks:
+  - {fileID: 6537447538541652039}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &7228644904609095073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,7 +998,7 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476257222791331
+  lastModified: 637482104032076178
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -712,7 +1017,7 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/phase 2.bank
   Name: phase 2
   StudioPath: bank:/phase 2
-  lastModified: 637476257275302689
+  lastModified: 637482104033366479
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -739,6 +1044,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 39380
+--- !u!114 &8405456864282825379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/oxygen/oxygen20
+  m_EditorClassIdentifier: 
+  Path: event:/oxygen/oxygen20
+  guid: 5d0c9d021299264f834f8da516142f93
+  Banks:
+  - {fileID: 6537447538541652039}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &8982475265887286902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,7 +1082,7 @@ MonoBehaviour:
   Path: Assets/Audio/FMOD FINAL/oceanman/Build/Desktop/voicelines.bank
   Name: voicelines
   StudioPath: bank:/voicelines
-  lastModified: 637476257337692274
+  lastModified: 637482104038487624
   LoadResult: 0
   FileSizes: []
   Exists: 1

@@ -16,13 +16,13 @@ MonoBehaviour:
   m_AdvancedMode: 0
   lift:
     m_OverrideState: 1
-    m_Value: {x: 0.95970535, y: 0.9813161, z: 1, w: 0}
+    m_Value: {x: 0.90565753, y: 0.92108583, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 0.6004158, y: 0.63936836, z: 1, w: 0}
+    m_Value: {x: 0.6018412, y: 0.6248497, z: 1, w: 0}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9857095, z: 0.7637105, w: 0}
+    m_Value: {x: 1, y: 0.965921, z: 0.85297, w: 0}
 --- !u!114 &-7142883545591108678
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -39,10 +39,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   type:
     m_OverrideState: 1
-    m_Value: 9
+    m_Value: 8
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.27
     min: 0
     max: 1
   response:
@@ -224,7 +224,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.564
+    m_Value: 0.621
     min: 0
     max: 1
   m_MaxSamples:

@@ -7,6 +7,7 @@ public class SpeedFxTriggerBehavior : MonoBehaviour
 {
     public float speed;
     public float fxIntensity;
+    public int spotlight;
     // Start is called before the first frame update
     void Start()
     {

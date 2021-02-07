@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2035111234}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 131.16855, g: 162.52502, b: 215.10977, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -235,8 +235,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "One week later you are Eva\u2019s boyfriend."
 --- !u!222 &2310824
@@ -265,6 +265,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &2310826
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -735,6 +738,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &181359197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181359198}
+  - component: {fileID: 181359199}
+  m_Layer: 0
+  m_Name: Theme 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &181359198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181359197}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1965996371}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181359199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181359197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/firewatch theme 2
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &192124115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,6 +1092,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &227793956
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1188,6 +1248,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!1 &267183938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,6 +1322,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &267183942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1332,7 +1398,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "She doesn\u2019t take it well\u2026 "
 --- !u!222 &267183944
@@ -1414,6 +1480,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &271438655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1642,6 +1711,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!1 &313761473
 GameObject:
   m_ObjectHideFlags: 1
@@ -1875,14 +1947,14 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: a9b1e938ec4ed52498caa5414f0bf58d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 95
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Life is good.
 --- !u!222 &374012334
@@ -1911,6 +1983,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &374012336
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1994,6 +2069,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &378954786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2145,14 +2223,14 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "You make a sign to Eva signaling that it\u2019s time to surface.  \r\n\rShe
     looks at you confused. \r\n\r\nShe knows what your sign means. She simply chooses
     to ignore it. \r\n\rYou swim near her. Try to gently force her hand. \r\n\rShe
-    swiftly frees her hand and instantly swims away. Clearly telling you that does
-    not want to be followed.  \r\n\r\n\n\nThe deep blue sea seems to shift. It now
-    more closely resembles a monster.  \r\n\r\n\nMouth wide. Welcoming a brand-new
+    swiftly frees her hand and instantly swims away. Clearly telling you that she
+    does not want to be followed.  \r\n\r\n\n\nThe deep blue sea seems to shift.
+    It now more closely resembles a monster.  \r\n\r\n\nMouth wide. Welcoming a brand-new
     snack. "
 --- !u!222 &397048522
 CanvasRenderer:
@@ -2162,6 +2240,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397048519}
   m_CullTransparentMesh: 0
+--- !u!1 &399909995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 399909996}
+  - component: {fileID: 399909997}
+  m_Layer: 0
+  m_Name: Theme 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &399909996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399909995}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1965996371}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &399909997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399909995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/firewatch theme 1
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &418210623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2315,6 +2447,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &435410542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2388,7 +2523,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: As if nothing happened, she waves at you.
 --- !u!222 &435410544
@@ -2399,84 +2534,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435410538}
   m_CullTransparentMesh: 0
---- !u!1 &455842037
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 455842039}
-  - component: {fileID: 455842038}
-  - component: {fileID: 455842040}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &455842038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455842037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/phase 1 tracks/musicbox
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
---- !u!4 &455842039
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455842037}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5653682, y: -1.1839166, z: 26.682247}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &455842040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455842037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/10-MINUTE AMBIENT TRACK
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!1 &514743111
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,7 +2689,7 @@ RectTransform:
   m_GameObject: {fileID: 590932076}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1423213153}
   m_RootOrder: 0
@@ -2662,13 +2719,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 1
   m_FillAmount: 1
   m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_FillOrigin: 1
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &590932079
@@ -2746,7 +2803,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "You stand still on the boat during the way back, trying to quench your
     emotions. \r\nYou are happy to see her but she acts like nothing happened. She
@@ -2784,7 +2841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &661448605
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2835,6 +2892,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &661448608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2907,8 +2967,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'You only have one objective. '
 --- !u!222 &661448610
@@ -2988,8 +3048,8 @@ MonoBehaviour:
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'You are drunk.
 
@@ -3245,6 +3305,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &783963202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3318,7 +3381,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'You feel tense once more. '
 --- !u!222 &783963204
@@ -3451,7 +3514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 72.9}
+  m_AnchoredPosition: {x: 0, y: 72.89996}
   m_SizeDelta: {x: 1393.9777, y: 49.499992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &864471257
@@ -3484,6 +3547,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &864471259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3711,6 +3777,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &911109270
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3958,7 +4027,7 @@ MonoBehaviour:
   m_Text: "After that day, Eva is declared missing. \r\n\rYou don't want to be contacted
     by anyone for an entire week. \r\n\r\n \rOne day you answer the phone. \r\n\r\n\u201CHello\u201D
     \r\n\r\n\u201CThis is Julie.\u201D \r\n\u201CYes. Julie can we not talk about
-    Eva. Your daughter has left me scared.\u201D \r\n\r\n\r\n\r\u201CHow can you
+    Eva. Your daughter has left me scarred.\u201D \r\n\r\n\r\n\r\u201CHow can you
     say that, she might still be aliv\u2014\u201D \r\n\r\nYou smash the phone down
     on the table. "
 --- !u!222 &994074849
@@ -4122,6 +4191,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1041291671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4273,7 +4345,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Ocean Man
 --- !u!222 &1044439425
@@ -4427,6 +4499,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1120375720
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4510,6 +4585,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1195662597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4661,7 +4739,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "You start your journey back to the surface. You feel absolutely terrified
     by the fact you are already, late and even worse: She is nowhere to be seen.
@@ -4872,8 +4950,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'London, England
 
@@ -4904,6 +4982,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1257223469
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5059,6 +5140,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!1 &1297650280
 GameObject:
   m_ObjectHideFlags: 0
@@ -5072,6 +5156,7 @@ GameObject:
   - component: {fileID: 1297650281}
   - component: {fileID: 1297650287}
   - component: {fileID: 1297650282}
+  - component: {fileID: 1297650285}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5248,6 +5333,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 17.5, y: 109.65, z: 0}
+--- !u!114 &1297650285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297650280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!114 &1297650287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5401,8 +5500,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u201CA Skunk?\u201D"
 --- !u!222 &1338342470
@@ -5431,6 +5530,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1338342472
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5584,6 +5686,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!1 &1382492414
 GameObject:
   m_ObjectHideFlags: 0
@@ -5852,8 +5957,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "She drives you absolutely nuts. It\u2019s great.\r"
 --- !u!222 &1395533436
@@ -5882,6 +5987,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1395533438
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -6101,6 +6209,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1445634844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6256,6 +6367,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1463302714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6484,6 +6598,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1477257479
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -6567,6 +6684,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1494123284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6794,6 +6914,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1516038139
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -6919,8 +7042,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: You approach her.
 --- !u!222 &1522754102
@@ -6949,6 +7072,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1522754104
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -7309,8 +7435,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "One week later you are Eva\u2019s boyfriend."
 --- !u!222 &1549132602
@@ -7339,6 +7465,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1549132604
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -7495,6 +7624,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1553344943
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -7658,6 +7790,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1592713011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7731,7 +7866,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Eva might never come back to the surface.
 --- !u!222 &1592713013
@@ -7742,6 +7877,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592713007}
   m_CullTransparentMesh: 0
+--- !u!1 &1669076134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1669076135}
+  - component: {fileID: 1669076136}
+  m_Layer: 0
+  m_Name: Theme 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1669076135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669076134}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1965996371}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1669076136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669076134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/firewatch theme 3
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1704265224
 GameObject:
   m_ObjectHideFlags: 0
@@ -8044,6 +8233,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1752711654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8148,7 +8340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1801799562
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8199,6 +8391,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1801799565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8272,7 +8467,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Play
 --- !u!222 &1801799567
@@ -8684,6 +8879,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1923238627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8839,6 +9037,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1932546501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9066,6 +9267,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1948140850
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -9190,8 +9394,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: You see Eva.
 --- !u!222 &1950330034
@@ -9220,6 +9424,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &1950330036
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -9386,6 +9593,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &1954685283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9470,6 +9680,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954685279}
   m_CullTransparentMesh: 0
+--- !u!1 &1965996370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1965996371}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1965996371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965996370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 604.58655, y: 315.78128, z: 219.9302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 399909996}
+  - {fileID: 181359198}
+  - {fileID: 1669076135}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1981782780
 GameObject:
   m_ObjectHideFlags: 0
@@ -9907,6 +10150,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!114 &2062433562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10104,8 +10350,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u201CToxicology, right?\u201D"
 --- !u!222 &2107874925
@@ -10134,6 +10380,9 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 1
   canvasGroup: {fileID: 0}
+  theme1: {fileID: 399909995}
+  theme2: {fileID: 181359197}
+  theme3: {fileID: 1669076134}
 --- !u!225 &2107874927
 CanvasGroup:
   m_ObjectHideFlags: 0

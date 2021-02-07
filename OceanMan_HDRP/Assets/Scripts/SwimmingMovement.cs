@@ -14,7 +14,8 @@ public class SwimmingMovement : MonoBehaviour
     public float intensityRate;
 
     public float sensitivity = 1f;
-
+    public Light spot1;
+    public Light spot2;
     private Transform transf;
     private float yaw = 0.0f;
     private float pitch = 0.0f;
@@ -62,6 +63,16 @@ public class SwimmingMovement : MonoBehaviour
         {
             targetSpeed = script.speed;
             targetFxIntensity = script.fxIntensity;
+            if (script.spotlight == 1)
+            {
+                spot1.enabled = true;
+                spot2.enabled = false;
+            } else
+            {
+                spot1.enabled = false;
+                spot2.enabled = true;
+            }
+            
         }
         
     }

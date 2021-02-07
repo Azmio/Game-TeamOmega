@@ -141,7 +141,7 @@
 	<object class="MixerBusFader" id="{aa6e92f0-4090-4587-bbcb-239cb5c68db3}" />
 	<object class="SFXReverbEffect" id="{47312c67-201e-41dc-9702-2e1df898b844}">
 		<property name="decayTime">
-			<value>750</value>
+			<value>2800</value>
 		</property>
 		<property name="HFDecayRatio">
 			<value>100</value>
